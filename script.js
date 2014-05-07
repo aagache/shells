@@ -26,10 +26,8 @@ jQuery(function() {
 
 	function resetGame(){
 		//hide the ball and close all the shells
-		box2.animate({"top": "0"}, 2000);
-		ball.animate({"top": "50px", "z-index": "-1"}, 2000);
-
 		box.animate({"top": "0"}, 2000);
+		ball.animate({"top": "50px", "z-index": "-1"}, 2000);		
 	}
 
 
@@ -50,10 +48,5 @@ jQuery(function() {
 
 	function randomFrom(array) {
 		return array[Math.floor(Math.random() * 3)];	//[0,1) * 3 -> 0, 1, 2 = 100, 300, 500
-	}
-
-
-	function reveal(){
-
 	}
 });
