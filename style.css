@@ -8,6 +8,11 @@ body{
 	font-family: "Myriad Pro";
 }
 
+#bugs{
+	font-style: italic;
+	color: #e0c59e;
+}
+
 #container{
 	width: 1000px;
 	height: 630px;
